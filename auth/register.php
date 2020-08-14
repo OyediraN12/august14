@@ -132,7 +132,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 					<img src="../images/img-01.png" alt="IMG">
 				</div>
 
-				<form class="login100-form validate-form">
+				<form class="login100-form validate-form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
 					<span class="login100-form-title">
 						Member Sign up
 					</span>
