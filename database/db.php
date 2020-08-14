@@ -2,7 +2,7 @@
 	//Create Server Variables
 	$user = "samson";
 	$pass = "password";
-	$dbname = "unity";
+	$dbname = "pladevac";
 	$host = "localhost";
 
 	//Establish a connection to the database
